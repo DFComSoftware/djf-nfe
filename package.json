@@ -20,11 +20,11 @@
     "url": "https://github.com/djalmaoliveira/djf-nfe/issues"
   },
   "devDependencies": {
-    "nodeunit": "^0.11.2"
+    "nodeunit": "^0.11.3"
   },
   "author": "Djalma Oliveira",
   "license": "MIT",
   "dependencies": {
-    "djf-xml": "^1.0.7"
+    "djf-xml": "^1.0.9"
   }
 }

@@ -2,7 +2,7 @@ const xmlModel = require('djf-xml')
 
 module.exports = NfeModel
 
-function NfeModel (content) {
+function NfeModel(content) {
   content = !content ? '' : content
   var xml = (typeof content !== 'object') ? xmlModel(content) : content
 
@@ -508,26 +508,18 @@ function NfeModel (content) {
 
     valorDuplicata: function () {
       return value(xml.tagValue('vDup'))
+    },
+
+    valorCombatePobreza() {
+      return value(xml.tagValue('vFCP'))
+    },
+
+    valorIcmsUfRemetente() {
+      return value(xml.tagValue('vICMSUFRemet'))
+    },
+
+    valorIcmsUfDestinatario() {
+      return value(xml.tagValue('vICMSUFDest'))
     }
-
-  /*
-
-   : function()   {
-      return xml.tagValue('marca');
-    },
-
-   : function()   {
-      return xml.tagValue('marca');
-    },
-
-   : function()   {
-      return xml.tagValue('marca');
-    },
-
-   : function()   {
-      return xml.tagValue('marca');
-    },
-  */
-
   }
 }
