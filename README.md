@@ -1,4 +1,4 @@
-# djf-nfe
+# d-nfe
 [![Build Status](https://travis-ci.org/djalmaoliveira/djf-nfe.svg?branch=master)](https://travis-ci.org/djalmaoliveira/djf-nfe) ![Version](https://img.shields.io/npm/v/djf-nfe.svg)
 
 Simples parser para XML da Nota fiscal eletrônica (NFe), usando javascript.
@@ -14,20 +14,20 @@ NodeJS
 
 ### Instalação
 ```
-npm install djf-nfe
+npm i -S d-nfe
 ```
 
 ### Exemplos
 
 
-[Exemplos de uso](https://github.com/djalmaoliveira/djf-nfe/tree/master/test/index.js)
+[Exemplos de uso](https://github.com/douglasselias/djf-nfe/tree/master/test/index.js)
 
 
 ## Especificações
 
 ### Funções
 
-* Disponibiliza uma API fluente para acessar os dados da NFe independente da versão do schema.
+* Disponibiliza uma API para acessar os dados da NFe independente da versão do schema.
 
 ### Não oferece
 
